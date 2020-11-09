@@ -11,6 +11,12 @@ public class BusPos {
 	private double latitude;
 	double speed;
 	
+	
+	public BusPos() {
+		super();
+
+	}
+
 	public BusPos( String vehicleID, long timestamp, double longitude, double latitude, double speed) {
 	 
 		super();
@@ -50,6 +56,12 @@ public class BusPos {
 	}
 	public void setSpeed(double speed) {
 		this.speed = speed;
+	}
+	
+	@Override
+	public String toString() {
+		return "BusPos [vehicleID=" + vehicleID + ", timestamp=" + timestamp + ", longitude=" + longitude
+				+ ", latitude=" + latitude + ", speed=" + speed + "]";
 	}
 	
 }

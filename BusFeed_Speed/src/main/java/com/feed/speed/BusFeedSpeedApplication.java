@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 
 import com.example.demo.jsonmessage.BusPos;
+import com.example.demo.jsonmessage.CustomBusPosSerdes;
 
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
@@ -46,6 +47,11 @@ public class BusFeedSpeedApplication {
         
         rtdBusPositionStream.print(Printed.toSysOut());
         
+        rtdBusPositionStream.mapValues(value -> {
+            value = BusFeedSpeedApplication.calcBusPosSpeed(value);
+            return value;
+        }).to("events2");
+        
         final Topology topology = builder.build();
         
         final KafkaStreams streams = new KafkaStreams(topology, props);
@@ -55,5 +61,44 @@ public class BusFeedSpeedApplication {
         
     
 	}
+	
+    private static BusPos calcBusPosSpeed(BusPos busPosition) {
+
+        // current bus ID
+        String busId = busPosition.getVehicleID();
+
+        // if there is a previous location for that bus ID, calculate the speed based on its previous position/timestamp.
+        if (previousBusPositionMap.containsKey(busId)){
+            BusPos previousBusPosition = previousBusPositionMap.get(busId);
+
+            // calculate distance and time between last two measurements
+            HaversineDistanceCalculator haversineDistanceCalculator = new HaversineDistanceCalculator();
+            double distance = haversineDistanceCalculator.calculateDistance(
+                    previousBusPosition.getLatitude(),
+                    previousBusPosition.getLongitude(),
+                    busPosition.getLatitude(),
+                    busPosition.getLongitude()); // distance is in kilometers
+
+            long timedelta = busPosition.getTimestamp() - previousBusPosition.getTimestamp(); // time delta is in seconds
+            double kmph = calculateKMPH(distance, timedelta);
+
+            busPosition.setSpeed(kmph);
+
+        }
+
+        previousBusPositionMap.put(busId, busPosition);
+
+        return busPosition;
+
+    }
+    
+    private static double calculateKMPH(double km, long seconds) {
+        if (seconds == 0){
+            return 0;
+        } else {
+            double kmph = km*60*60 / seconds;
+            return kmph;
+        }
+    }
 
 }
