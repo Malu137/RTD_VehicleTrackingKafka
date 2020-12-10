@@ -30,7 +30,7 @@ public class BusFeedSpeedApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BusFeedSpeedApplication.class, args);
-		LOG.debug("Spring Application has started");
+		LOG.debug("BusFeed_Speed Application has started");
     	Properties props = new Properties();
     	props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
     	props.put(StreamsConfig.APPLICATION_ID_CONFIG, "BusFeed_Speed");
@@ -81,7 +81,8 @@ public class BusFeedSpeedApplication {
 
             long timedelta = busPosition.getTimestamp() - previousBusPosition.getTimestamp(); // time delta is in seconds
             double kmph = calculateKMPH(distance, timedelta);
-
+            
+            busPosition.setDistance(distance);
             busPosition.setSpeed(kmph);
 
         }

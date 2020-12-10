@@ -1,0 +1,1460 @@
+header {
+  gtfs_realtime_version: "1.0"
+  incrementality: FULL_DATASET
+  timestamp: 1605170671
+}
+entity {
+  id: "1605170671_1533"
+  vehicle {
+    position {
+      latitude: 39.6351
+      longitude: -104.89602
+      bearing: 82.0
+    }
+    timestamp: 1605170426
+    vehicle {
+      id: "1533"
+      label: "1533"
+    }
+  }
+}
+entity {
+  id: "1605170671_1536"
+  vehicle {
+    position {
+      latitude: 39.738018
+      longitude: -104.82383
+      bearing: 0.0
+    }
+    timestamp: 1605170627
+    vehicle {
+      id: "1536"
+      label: "1536"
+    }
+  }
+}
+entity {
+  id: "1605170671_1673"
+  vehicle {
+    position {
+      latitude: 39.76993
+      longitude: -104.98442
+      bearing: 0.0
+    }
+    timestamp: 1605170623
+    vehicle {
+      id: "1673"
+      label: "1673"
+    }
+  }
+}
+entity {
+  id: "1605170671_3619"
+  vehicle {
+    position {
+      latitude: 40.016884
+      longitude: -105.249664
+      bearing: 0.0
+    }
+    timestamp: 1605170320
+    vehicle {
+      id: "3619"
+      label: "3619"
+    }
+  }
+}
+entity {
+  id: "1605170671_3644"
+  vehicle {
+    position {
+      latitude: 40.016834
+      longitude: -105.24895
+      bearing: 0.0
+    }
+    timestamp: 1605170621
+    vehicle {
+      id: "3644"
+      label: "3644"
+    }
+  }
+}
+entity {
+  id: "1605170671_3673"
+  vehicle {
+    position {
+      latitude: 39.769234
+      longitude: -104.98527
+      bearing: 0.0
+    }
+    timestamp: 1605170613
+    vehicle {
+      id: "3673"
+      label: "3673"
+    }
+  }
+}
+entity {
+  id: "1605170671_3707"
+  vehicle {
+    position {
+      latitude: 40.016766
+      longitude: -105.248314
+      bearing: 0.0
+    }
+    timestamp: 1605170263
+    vehicle {
+      id: "3707"
+      label: "3707"
+    }
+  }
+}
+entity {
+  id: "1605170671_3713"
+  vehicle {
+    position {
+      latitude: 40.016884
+      longitude: -105.248665
+      bearing: 0.0
+    }
+    timestamp: 1605170092
+    vehicle {
+      id: "3713"
+      label: "3713"
+    }
+  }
+}
+entity {
+  id: "1605170671_3718"
+  vehicle {
+    position {
+      latitude: 40.016815
+      longitude: -105.24837
+      bearing: 9.0
+    }
+    timestamp: 1605170510
+    vehicle {
+      id: "3718"
+      label: "3718"
+    }
+  }
+}
+entity {
+  id: "1605170671_3719"
+  vehicle {
+    position {
+      latitude: 40.016983
+      longitude: -105.24872
+      bearing: 0.0
+    }
+    timestamp: 1605170522
+    vehicle {
+      id: "3719"
+      label: "3719"
+    }
+  }
+}
+entity {
+  id: "1605170671_3739"
+  vehicle {
+    position {
+      latitude: 39.7692
+      longitude: -104.98548
+      bearing: 0.0
+    }
+    timestamp: 1605170627
+    vehicle {
+      id: "3739"
+      label: "3739"
+    }
+  }
+}
+entity {
+  id: "1605170671_5049"
+  vehicle {
+    position {
+      latitude: 39.81122
+      longitude: -104.9888
+      bearing: 94.0
+    }
+    timestamp: 1605170564
+    vehicle {
+      id: "5049"
+      label: "5049"
+    }
+  }
+}
+entity {
+  id: "1605170671_5055"
+  vehicle {
+    position {
+      latitude: 39.8112
+      longitude: -104.98863
+      bearing: 98.0
+    }
+    timestamp: 1605170112
+    vehicle {
+      id: "5055"
+      label: "5055"
+    }
+  }
+}
+entity {
+  id: "1605170671_5056"
+  vehicle {
+    position {
+      latitude: 39.8114
+      longitude: -104.98907
+      bearing: 0.0
+    }
+    timestamp: 1605170519
+    vehicle {
+      id: "5056"
+      label: "5056"
+    }
+  }
+}
+entity {
+  id: "1605170671_5059"
+  vehicle {
+    position {
+      latitude: 39.8113
+      longitude: -104.988464
+      bearing: 0.0
+    }
+    timestamp: 1605170455
+    vehicle {
+      id: "5059"
+      label: "5059"
+    }
+  }
+}
+entity {
+  id: "1605170671_5064"
+  vehicle {
+    position {
+      latitude: 39.811333
+      longitude: -104.99022
+      bearing: 82.0
+    }
+    timestamp: 1605170331
+    vehicle {
+      id: "5064"
+      label: "5064"
+    }
+  }
+}
+entity {
+  id: "1605170671_5068"
+  vehicle {
+    position {
+      latitude: 39.81125
+      longitude: -104.99007
+      bearing: 0.0
+    }
+    timestamp: 1605170613
+    vehicle {
+      id: "5068"
+      label: "5068"
+    }
+  }
+}
+entity {
+  id: "1605170671_5069"
+  vehicle {
+    position {
+      latitude: 39.8113
+      longitude: -104.989265
+      bearing: 0.0
+    }
+    timestamp: 1605170631
+    vehicle {
+      id: "5069"
+      label: "5069"
+    }
+  }
+}
+entity {
+  id: "1605170671_5072"
+  vehicle {
+    position {
+      latitude: 39.81143
+      longitude: -104.9899
+      bearing: 0.0
+    }
+    timestamp: 1605170641
+    vehicle {
+      id: "5072"
+      label: "5072"
+    }
+  }
+}
+entity {
+  id: "1605170671_5076"
+  vehicle {
+    position {
+      latitude: 39.811317
+      longitude: -104.98908
+      bearing: 0.0
+    }
+    timestamp: 1605170642
+    vehicle {
+      id: "5076"
+      label: "5076"
+    }
+  }
+}
+entity {
+  id: "1605170671_5083"
+  vehicle {
+    position {
+      latitude: 39.8113
+      longitude: -104.98912
+      bearing: 0.0
+    }
+    timestamp: 1605170438
+    vehicle {
+      id: "5083"
+      label: "5083"
+    }
+  }
+}
+entity {
+  id: "1605170671_5105"
+  vehicle {
+    position {
+      latitude: 39.810684
+      longitude: -104.942314
+      bearing: 141.0
+    }
+    timestamp: 1605170465
+    vehicle {
+      id: "5105"
+      label: "5105"
+    }
+  }
+}
+entity {
+  id: "1605170671_5126"
+  vehicle {
+    position {
+      latitude: 39.667366
+      longitude: -105.01355
+      bearing: 246.0
+    }
+    timestamp: 1605170272
+    vehicle {
+      id: "5126"
+      label: "5126"
+    }
+  }
+}
+entity {
+  id: "1605170671_5135"
+  vehicle {
+    position {
+      latitude: 40.148968
+      longitude: -105.117615
+      bearing: 0.0
+    }
+    timestamp: 1605170644
+    vehicle {
+      id: "5135"
+      label: "5135"
+    }
+  }
+}
+entity {
+  id: "1605170671_5143"
+  vehicle {
+    position {
+      latitude: 39.81143
+      longitude: -104.99022
+      bearing: 0.0
+    }
+    timestamp: 1605170538
+    vehicle {
+      id: "5143"
+      label: "5143"
+    }
+  }
+}
+entity {
+  id: "1605170671_5145"
+  vehicle {
+    position {
+      latitude: 39.8113
+      longitude: -104.98973
+      bearing: 0.0
+    }
+    timestamp: 1605170632
+    vehicle {
+      id: "5145"
+      label: "5145"
+    }
+  }
+}
+entity {
+  id: "1605170671_5157"
+  vehicle {
+    position {
+      latitude: 39.811317
+      longitude: -104.989586
+      bearing: 0.0
+    }
+    timestamp: 1605170617
+    vehicle {
+      id: "5157"
+      label: "5157"
+    }
+  }
+}
+entity {
+  id: "1605170671_5163"
+  vehicle {
+    position {
+      latitude: 39.811317
+      longitude: -104.988785
+      bearing: 0.0
+    }
+    timestamp: 1605170641
+    vehicle {
+      id: "5163"
+      label: "5163"
+    }
+  }
+}
+entity {
+  id: "1605170671_5165"
+  vehicle {
+    position {
+      latitude: 39.81125
+      longitude: -104.990234
+      bearing: 0.0
+    }
+    timestamp: 1605170472
+    vehicle {
+      id: "5165"
+      label: "5165"
+    }
+  }
+}
+entity {
+  id: "1605170671_5169"
+  vehicle {
+    position {
+      latitude: 39.811317
+      longitude: -104.98973
+      bearing: 0.0
+    }
+    timestamp: 1605170646
+    vehicle {
+      id: "5169"
+      label: "5169"
+    }
+  }
+}
+entity {
+  id: "1605170671_5171"
+  vehicle {
+    position {
+      latitude: 39.8115
+      longitude: -104.990036
+      bearing: 0.0
+    }
+    timestamp: 1605170585
+    vehicle {
+      id: "5171"
+      label: "5171"
+    }
+  }
+}
+entity {
+  id: "1605170671_5174"
+  vehicle {
+    position {
+      latitude: 39.811283
+      longitude: -104.9899
+      bearing: 0.0
+    }
+    timestamp: 1605170642
+    vehicle {
+      id: "5174"
+      label: "5174"
+    }
+  }
+}
+entity {
+  id: "1605170671_5175"
+  vehicle {
+    position {
+      latitude: 39.811333
+      longitude: -104.988464
+      bearing: 0.0
+    }
+    timestamp: 1605170597
+    vehicle {
+      id: "5175"
+      label: "5175"
+    }
+  }
+}
+entity {
+  id: "1605170671_5177"
+  vehicle {
+    position {
+      latitude: 39.8117
+      longitude: -104.99065
+      bearing: 207.0
+    }
+    timestamp: 1605170344
+    vehicle {
+      id: "5177"
+      label: "5177"
+    }
+  }
+}
+entity {
+  id: "1605170671_5181"
+  vehicle {
+    position {
+      latitude: 39.8114
+      longitude: -104.988464
+      bearing: 0.0
+    }
+    timestamp: 1605170454
+    vehicle {
+      id: "5181"
+      label: "5181"
+    }
+  }
+}
+entity {
+  id: "1605170671_5184"
+  vehicle {
+    position {
+      latitude: 39.8114
+      longitude: -104.989265
+      bearing: 0.0
+    }
+    timestamp: 1605170635
+    vehicle {
+      id: "5184"
+      label: "5184"
+    }
+  }
+}
+entity {
+  id: "1605170671_5191"
+  vehicle {
+    position {
+      latitude: 39.811417
+      longitude: -104.98942
+      bearing: 0.0
+    }
+    timestamp: 1605170553
+    vehicle {
+      id: "5191"
+      label: "5191"
+    }
+  }
+}
+entity {
+  id: "1605170671_5192"
+  vehicle {
+    position {
+      latitude: 39.81145
+      longitude: -104.989586
+      bearing: 0.0
+    }
+    timestamp: 1605170638
+    vehicle {
+      id: "5192"
+      label: "5192"
+    }
+  }
+}
+entity {
+  id: "1605170671_5219"
+  vehicle {
+    position {
+      latitude: 40.148933
+      longitude: -105.117165
+      bearing: 0.0
+    }
+    timestamp: 1605170625
+    vehicle {
+      id: "5219"
+      label: "5219"
+    }
+  }
+}
+entity {
+  id: "1605170671_5229"
+  vehicle {
+    position {
+      latitude: 40.148933
+      longitude: -105.11733
+      bearing: 0.0
+    }
+    timestamp: 1605170103
+    vehicle {
+      id: "5229"
+      label: "5229"
+    }
+  }
+}
+entity {
+  id: "1605170671_5238"
+  vehicle {
+    position {
+      latitude: 39.81072
+      longitude: -104.94182
+      bearing: 0.0
+    }
+    timestamp: 1605170598
+    vehicle {
+      id: "5238"
+      label: "5238"
+    }
+  }
+}
+entity {
+  id: "1605170671_5243"
+  vehicle {
+    position {
+      latitude: 39.811283
+      longitude: -104.942764
+      bearing: 0.0
+    }
+    timestamp: 1605170592
+    vehicle {
+      id: "5243"
+      label: "5243"
+    }
+  }
+}
+entity {
+  id: "1605170671_6004"
+  vehicle {
+    position {
+      latitude: 39.81115
+      longitude: -104.942764
+      bearing: 0.0
+    }
+    timestamp: 1605170613
+    vehicle {
+      id: "6004"
+      label: "6004"
+    }
+  }
+}
+entity {
+  id: "1605170671_6007"
+  vehicle {
+    position {
+      latitude: 39.81162
+      longitude: -104.98955
+      bearing: 0.0
+    }
+    timestamp: 1605170648
+    vehicle {
+      id: "6007"
+      label: "6007"
+    }
+  }
+}
+entity {
+  id: "1605170671_6018"
+  vehicle {
+    position {
+      latitude: 39.769466
+      longitude: -104.985916
+      bearing: 0.0
+    }
+    timestamp: 1605170595
+    vehicle {
+      id: "6018"
+      label: "6018"
+    }
+  }
+}
+entity {
+  id: "1605170671_6049"
+  vehicle {
+    position {
+      latitude: 39.76955
+      longitude: -104.98603
+      bearing: 0.0
+    }
+    timestamp: 1605170531
+    vehicle {
+      id: "6049"
+      label: "6049"
+    }
+  }
+}
+entity {
+  id: "1605170671_6051"
+  vehicle {
+    position {
+      latitude: 39.76975
+      longitude: -104.98507
+      bearing: 0.0
+    }
+    timestamp: 1605170650
+    vehicle {
+      id: "6051"
+      label: "6051"
+    }
+  }
+}
+entity {
+  id: "1605170671_6054"
+  vehicle {
+    position {
+      latitude: 39.811634
+      longitude: -104.9894
+      bearing: 90.0
+    }
+    timestamp: 1605170293
+    vehicle {
+      id: "6054"
+      label: "6054"
+    }
+  }
+}
+entity {
+  id: "1605170671_6056"
+  vehicle {
+    position {
+      latitude: 39.811584
+      longitude: -104.98987
+      bearing: 0.0
+    }
+    timestamp: 1605170626
+    vehicle {
+      id: "6056"
+      label: "6056"
+    }
+  }
+}
+entity {
+  id: "1605170671_6070"
+  vehicle {
+    position {
+      latitude: 39.737816
+      longitude: -104.82349
+      bearing: 0.0
+    }
+    timestamp: 1605170648
+    vehicle {
+      id: "6070"
+      label: "6070"
+    }
+  }
+}
+entity {
+  id: "1605170671_6073"
+  vehicle {
+    position {
+      latitude: 39.737732
+      longitude: -104.82346
+      bearing: 0.0
+    }
+    timestamp: 1605170653
+    vehicle {
+      id: "6073"
+      label: "6073"
+    }
+  }
+}
+entity {
+  id: "1605170671_6079"
+  vehicle {
+    position {
+      latitude: 39.738167
+      longitude: -104.8236
+      bearing: 0.0
+    }
+    timestamp: 1605170648
+    vehicle {
+      id: "6079"
+      label: "6079"
+    }
+  }
+}
+entity {
+  id: "1605170671_6097"
+  vehicle {
+    position {
+      latitude: 39.7381
+      longitude: -104.823586
+      bearing: 342.0
+    }
+    timestamp: 1605170626
+    vehicle {
+      id: "6097"
+      label: "6097"
+    }
+  }
+}
+entity {
+  id: "1605170671_6098"
+  vehicle {
+    position {
+      latitude: 39.738117
+      longitude: -104.82353
+      bearing: 0.0
+    }
+    timestamp: 1605170624
+    vehicle {
+      id: "6098"
+      label: "6098"
+    }
+  }
+}
+entity {
+  id: "1605170671_6132"
+  vehicle {
+    position {
+      latitude: 39.667
+      longitude: -105.014
+      bearing: 0.0
+    }
+    timestamp: 1605170634
+    vehicle {
+      id: "6132"
+      label: "6132"
+    }
+  }
+}
+entity {
+  id: "1605170671_6148"
+  vehicle {
+    position {
+      latitude: 39.6674
+      longitude: -105.01393
+      bearing: 0.0
+    }
+    timestamp: 1605170484
+    vehicle {
+      id: "6148"
+      label: "6148"
+    }
+  }
+}
+entity {
+  id: "1605170671_6159"
+  vehicle {
+    position {
+      latitude: 39.811184
+      longitude: -104.94238
+      bearing: 0.0
+    }
+    timestamp: 1605170598
+    vehicle {
+      id: "6159"
+      label: "6159"
+    }
+  }
+}
+entity {
+  id: "1605170671_6167"
+  vehicle {
+    position {
+      latitude: 39.8108
+      longitude: -104.94282
+      bearing: 0.0
+    }
+    timestamp: 1605170636
+    vehicle {
+      id: "6167"
+      label: "6167"
+    }
+  }
+}
+entity {
+  id: "1605170671_6169"
+  vehicle {
+    position {
+      latitude: 39.810932
+      longitude: -104.941315
+      bearing: 0.0
+    }
+    timestamp: 1605170270
+    vehicle {
+      id: "6169"
+      label: "6169"
+    }
+  }
+}
+entity {
+  id: "1605170671_6176"
+  vehicle {
+    position {
+      latitude: 39.8113
+      longitude: -104.94155
+      bearing: 82.0
+    }
+    timestamp: 1605170500
+    vehicle {
+      id: "6176"
+      label: "6176"
+    }
+  }
+}
+entity {
+  id: "1605170671_6179"
+  vehicle {
+    position {
+      latitude: 39.811134
+      longitude: -104.94283
+      bearing: 167.0
+    }
+    timestamp: 1605170113
+    vehicle {
+      id: "6179"
+      label: "6179"
+    }
+  }
+}
+entity {
+  id: "1605170671_6180"
+  vehicle {
+    position {
+      latitude: 39.81098
+      longitude: -104.941086
+      bearing: 337.0
+    }
+    timestamp: 1605170494
+    vehicle {
+      id: "6180"
+      label: "6180"
+    }
+  }
+}
+entity {
+  id: "1605170671_6181"
+  vehicle {
+    position {
+      latitude: 39.811016
+      longitude: -104.942764
+      bearing: 0.0
+    }
+    timestamp: 1605170587
+    vehicle {
+      id: "6181"
+      label: "6181"
+    }
+  }
+}
+entity {
+  id: "1605170671_6182"
+  vehicle {
+    position {
+      latitude: 39.810616
+      longitude: -104.94117
+      bearing: 102.0
+    }
+    timestamp: 1605170651
+    vehicle {
+      id: "6182"
+      label: "6182"
+    }
+  }
+}
+entity {
+  id: "1605170671_6185"
+  vehicle {
+    position {
+      latitude: 39.811016
+      longitude: -104.9424
+      bearing: 0.0
+    }
+    timestamp: 1605170649
+    vehicle {
+      id: "6185"
+      label: "6185"
+    }
+  }
+}
+entity {
+  id: "1605170671_6197"
+  vehicle {
+    position {
+      latitude: 39.769634
+      longitude: -104.98492
+      bearing: 0.0
+    }
+    timestamp: 1605170650
+    vehicle {
+      id: "6197"
+      label: "6197"
+    }
+  }
+}
+entity {
+  id: "1605170671_6199"
+  vehicle {
+    position {
+      latitude: 39.81195
+      longitude: -104.98955
+      bearing: 0.0
+    }
+    timestamp: 1605170581
+    vehicle {
+      id: "6199"
+      label: "6199"
+    }
+  }
+}
+entity {
+  id: "1605170671_6203"
+  vehicle {
+    position {
+      latitude: 39.811535
+      longitude: -104.99018
+      bearing: 0.0
+    }
+    timestamp: 1605170586
+    vehicle {
+      id: "6203"
+      label: "6203"
+    }
+  }
+}
+entity {
+  id: "1605170671_6204"
+  vehicle {
+    position {
+      latitude: 39.811634
+      longitude: -104.98987
+      bearing: 0.0
+    }
+    timestamp: 1605170630
+    vehicle {
+      id: "6204"
+      label: "6204"
+    }
+  }
+}
+entity {
+  id: "1605170671_6210"
+  vehicle {
+    position {
+      latitude: 39.811634
+      longitude: -104.989716
+      bearing: 0.0
+    }
+    timestamp: 1605170594
+    vehicle {
+      id: "6210"
+      label: "6210"
+    }
+  }
+}
+entity {
+  id: "1605170671_6214"
+  vehicle {
+    position {
+      latitude: 39.811516
+      longitude: -104.98938
+      bearing: 0.0
+    }
+    timestamp: 1605170281
+    vehicle {
+      id: "6214"
+      label: "6214"
+    }
+  }
+}
+entity {
+  id: "1605170671_6215"
+  vehicle {
+    position {
+      latitude: 39.811535
+      longitude: -104.99005
+      bearing: 0.0
+    }
+    timestamp: 1605170612
+    vehicle {
+      id: "6215"
+      label: "6215"
+    }
+  }
+}
+entity {
+  id: "1605170671_6221"
+  vehicle {
+    position {
+      latitude: 39.985767
+      longitude: -105.2399
+      bearing: 92.0
+    }
+    timestamp: 1605170636
+    vehicle {
+      id: "6221"
+      label: "6221"
+    }
+  }
+}
+entity {
+  id: "1605170671_6225"
+  vehicle {
+    position {
+      latitude: 40.01668
+      longitude: -105.249565
+      bearing: 0.0
+    }
+    timestamp: 1605170620
+    vehicle {
+      id: "6225"
+      label: "6225"
+    }
+  }
+}
+entity {
+  id: "1605170671_6254"
+  vehicle {
+    position {
+      latitude: 40.016567
+      longitude: -105.24917
+      bearing: 0.0
+    }
+    timestamp: 1605170325
+    vehicle {
+      id: "6254"
+      label: "6254"
+    }
+  }
+}
+entity {
+  id: "1605170671_6260"
+  vehicle {
+    position {
+      latitude: 39.73795
+      longitude: -104.82415
+      bearing: 170.0
+    }
+    timestamp: 1605170152
+    vehicle {
+      id: "6260"
+      label: "6260"
+    }
+  }
+}
+entity {
+  id: "1605170671_6268"
+  vehicle {
+    position {
+      latitude: 39.7389
+      longitude: -104.824
+      bearing: 0.0
+    }
+    timestamp: 1605170633
+    vehicle {
+      id: "6268"
+      label: "6268"
+    }
+  }
+}
+entity {
+  id: "1605170671_6272"
+  vehicle {
+    position {
+      latitude: 39.782166
+      longitude: -104.870735
+      bearing: 90.0
+    }
+    timestamp: 1605170126
+    vehicle {
+      id: "6272"
+      label: "6272"
+    }
+  }
+}
+entity {
+  id: "1605170671_6276"
+  vehicle {
+    position {
+      latitude: 39.73835
+      longitude: -104.82405
+      bearing: 0.0
+    }
+    timestamp: 1605170561
+    vehicle {
+      id: "6276"
+      label: "6276"
+    }
+  }
+}
+entity {
+  id: "1605170671_6288"
+  vehicle {
+    position {
+      latitude: 39.73797
+      longitude: -104.8234
+      bearing: 104.0
+    }
+    timestamp: 1605170207
+    vehicle {
+      id: "6288"
+      label: "6288"
+    }
+  }
+}
+entity {
+  id: "1605170671_6310"
+  vehicle {
+    position {
+      latitude: 39.73795
+      longitude: -104.82373
+      bearing: 0.0
+    }
+    timestamp: 1605170653
+    vehicle {
+      id: "6310"
+      label: "6310"
+    }
+  }
+}
+entity {
+  id: "1605170671_6351"
+  vehicle {
+    position {
+      latitude: 39.8121
+      longitude: -104.989685
+      bearing: 35.0
+    }
+    timestamp: 1605170579
+    vehicle {
+      id: "6351"
+      label: "6351"
+    }
+  }
+}
+entity {
+  id: "1605170671_6353"
+  vehicle {
+    position {
+      latitude: 39.81162
+      longitude: -104.99002
+      bearing: 130.0
+    }
+    timestamp: 1605170563
+    vehicle {
+      id: "6353"
+      label: "6353"
+    }
+  }
+}
+entity {
+  id: "1605170671_6364"
+  vehicle {
+    position {
+      latitude: 39.76948
+      longitude: -104.986084
+      bearing: 0.0
+    }
+    timestamp: 1605170196
+    vehicle {
+      id: "6364"
+      label: "6364"
+    }
+  }
+}
+entity {
+  id: "1605170671_6375"
+  vehicle {
+    position {
+      latitude: 39.6674
+      longitude: -105.01395
+      bearing: 0.0
+    }
+    timestamp: 1605170581
+    vehicle {
+      id: "6375"
+      label: "6375"
+    }
+  }
+}
+entity {
+  id: "1605170671_6377"
+  vehicle {
+    position {
+      latitude: 39.667267
+      longitude: -105.01397
+      bearing: 0.0
+    }
+    timestamp: 1605170623
+    vehicle {
+      id: "6377"
+      label: "6377"
+    }
+  }
+}
+entity {
+  id: "1605170671_6382"
+  vehicle {
+    position {
+      latitude: 39.667267
+      longitude: -105.01352
+      bearing: 306.0
+    }
+    timestamp: 1605170148
+    vehicle {
+      id: "6382"
+      label: "6382"
+    }
+  }
+}
+entity {
+  id: "1605170671_6385"
+  vehicle {
+    position {
+      latitude: 39.6672
+      longitude: -105.01272
+      bearing: 310.0
+    }
+    timestamp: 1605170545
+    vehicle {
+      id: "6385"
+      label: "6385"
+    }
+  }
+}
+entity {
+  id: "1605170671_6397"
+  vehicle {
+    position {
+      latitude: 39.7382
+      longitude: -104.823784
+      bearing: 0.0
+    }
+    timestamp: 1605170331
+    vehicle {
+      id: "6397"
+      label: "6397"
+    }
+  }
+}
+entity {
+  id: "1605170671_6404"
+  vehicle {
+    position {
+      latitude: 39.810917
+      longitude: -104.94245
+      bearing: 0.0
+    }
+    timestamp: 1605170541
+    vehicle {
+      id: "6404"
+      label: "6404"
+    }
+  }
+}
+entity {
+  id: "1605170671_6412"
+  vehicle {
+    position {
+      latitude: 39.81122
+      longitude: -104.9425
+      bearing: 104.0
+    }
+    timestamp: 1605170481
+    vehicle {
+      id: "6412"
+      label: "6412"
+    }
+  }
+}
+entity {
+  id: "1605170671_6501"
+  vehicle {
+    position {
+      latitude: 39.6668
+      longitude: -105.01427
+      bearing: 0.0
+    }
+    timestamp: 1605170630
+    vehicle {
+      id: "6501"
+      label: "6501"
+    }
+  }
+}
+entity {
+  id: "1605170671_6506"
+  vehicle {
+    position {
+      latitude: 39.666866
+      longitude: -105.013916
+      bearing: 313.0
+    }
+    timestamp: 1605170391
+    vehicle {
+      id: "6506"
+      label: "6506"
+    }
+  }
+}
+entity {
+  id: "1605170671_6509"
+  vehicle {
+    position {
+      latitude: 39.66685
+      longitude: -105.01362
+      bearing: 245.0
+    }
+    timestamp: 1605170489
+    vehicle {
+      id: "6509"
+      label: "6509"
+    }
+  }
+}
+entity {
+  id: "1605170671_6512"
+  vehicle {
+    position {
+      latitude: 39.66685
+      longitude: -105.01376
+      bearing: 283.0
+    }
+    timestamp: 1605170421
+    vehicle {
+      id: "6512"
+      label: "6512"
+    }
+  }
+}
+entity {
+  id: "1605170671_9370"
+  vehicle {
+    position {
+      latitude: 39.738316
+      longitude: -104.823364
+      bearing: 0.0
+    }
+    timestamp: 1605170640
+    vehicle {
+      id: "9370"
+      label: "9370"
+    }
+  }
+}
+entity {
+  id: "1605170671_9401"
+  vehicle {
+    position {
+      latitude: 39.737583
+      longitude: -104.823685
+      bearing: 0.0
+    }
+    timestamp: 1605170652
+    vehicle {
+      id: "9401"
+      label: "9401"
+    }
+  }
+}

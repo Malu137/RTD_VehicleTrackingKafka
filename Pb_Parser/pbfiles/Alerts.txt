@@ -1,0 +1,1475 @@
+header {
+  gtfs_realtime_version: "2.0"
+  incrementality: FULL_DATASET
+  timestamp: 1605170648
+}
+entity {
+  id: "7299"
+  alert {
+    active_period {
+      start: 1603389580
+      end: 1608803940
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "73"
+      route_type: 3
+      stop_id: "16143"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop closed due to Denver Water project through Wed Dec 23 due to construction: Quebec St & 8th Ave (#16143) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n73 Board at next stop or previous stop"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7435"
+  alert {
+    active_period {
+      start: 1604916000
+      end: 1633078740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "15778"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15778"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 9 through Thu Sep 30: S Parker Rd & Mississippi Ave Farside (#15778) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n11\r\n83L"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "5426"
+  alert {
+    active_period {
+      start: 1588802374
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      stop_id: "20306"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      stop_id: "21919"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      stop_id: "25783"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed: 3 Bus stops."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\nNB1\r\n\nAffected stops:\r\nHwy 119 & Boulder Falls (#21919)\r\nHwy 119 & Chapman Dr (#25783)\r\nHwy 119 & Fourmile Cnyn Rd (#20306) (eastbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7267"
+  alert {
+    active_period {
+      start: 1603270800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "21"
+      route_type: 3
+      stop_id: "13616"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed beginning Wed Oct 21: W Evans Ave & S Patton Ct (#13616) (eastbound) due to improvements made by the city that do not meet ADA compliance."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n21"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7576"
+  alert {
+    active_period {
+      start: 1605931200
+      end: 1606132800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15778"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15783"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "15778"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "15783"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "19904"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "19916"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "19917"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "19918"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "25829"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Fri Nov 20 at 9:00 PM to Mon Nov 23 at 5:00 AM due to construction: 7 Bus stops."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n11\r\n83L\r\n\nAffected stops:\r\nS Parker Rd & S Quebec St (#15783) (eastbound)\r\nS Parker Rd & Mississippi Ave Nearside (#25829) (eastbound)\r\nS Parker Rd & S Ulster St (#19904) (eastbound)\r\nS Parker Rd & Florida Ave (#19916) (westbound)\r\nS Parker Rd & S Ulster St (#19917) (westbound)\r\nS Parker Rd & Mississippi Ave Nearside (#19918) (westbound)\r\nS Parker Rd & Mississippi Ave Farside (#15778) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7575"
+  alert {
+    active_period {
+      start: 1605931200
+      end: 1606132800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15778"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15783"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "16173"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "16178"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "73"
+      route_type: 3
+      stop_id: "16173"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "73"
+      route_type: 3
+      stop_id: "16178"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83D"
+      route_type: 3
+      stop_id: "16178"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "15778"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "15783"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15447"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "15461"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Fri Nov 20 at 9:00 PM to Mon Nov 23 at 5:00 AM due to construction: 6 Bus stops."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n11 (on detour)\r\n73 (not affected)\r\n83D (not affected)\r\n83L (on detour)\r\n\r\nAffected stops:\r\nS Quebec St & S Quebec Way Farside (#16173) (eastbound) (Rt 11 ONLY)\r\nS Parker Rd & S Quebec St (#15783) (eastbound)\r\nMississippi Ave & S Valentia St (#15461) (westbound)\r\nMississippi Ave & S Tamarac St (#15447) (westbound)\r\nS Parker Rd & Mississippi Ave Farside (#15778) (westbound)\r\nS Quebec St & Leetsdale Dr (#16178) (westbound)( Rt 11 ONLY)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7572"
+  alert {
+    active_period {
+      start: 1605520800
+      end: 1608199140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "1"
+      route_type: 3
+      stop_id: "21375"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "21375"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 16 through Wed Dec 16 due to construction: Blake St & 14th St (#21375) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n1\r\n15L"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "6318"
+  alert {
+    active_period {
+      start: 1595425318
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "21"
+      route_type: 3
+      stop_id: "14559"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed due to construction: Iliff Ave & S Yosemite St (#14559) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n21"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7402"
+  alert {
+    active_period {
+      start: 1604002026
+      end: 1610276340
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "AT"
+      route_type: 3
+    }
+    cause: UNKNOWN_CAUSE
+    effect: ADDITIONAL_SERVICE
+    header_text {
+      translation {
+        text: "The following extra service trips for the AT SkyRide bus are now operating daily, Sun - Sat. These trips are in addition to currently scheduled AT departures."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "\nNorthbound:\r\nNine Mile Station to DEN, departing at 4:10 am, 5:10am, and 6:10 am\r\n\nSouthbound:\r\nDEN (Gate 9) to Nine Mile Station, departing at 1:10 pm, 2:10pm, and 3:00pm"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7392"
+  alert {
+    active_period {
+      start: 1604311200
+      end: 1608544740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "72"
+      route_type: 3
+      stop_id: "16255"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 2 through Sun Dec 20 due to construction: Independence St & Ralston Rd (#16255) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n72- Board on Independence St & Ralston Rd"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7409"
+  alert {
+    active_period {
+      start: 1604311200
+      end: 1605175140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "153"
+      route_type: 3
+      stop_id: "21458"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 2 through Wed Nov 11 due to construction: S Chambers Rd & Evanston Way (#21458) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n153"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "6380"
+  alert {
+    active_period {
+      start: 1596099600
+      end: 1605434340
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12885"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed: Colfax Ave & Garfield St (#12885) (eastbound) and Colfax Ave & Garfield St (#12886)(westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7488"
+  alert {
+    active_period {
+      start: 1605108600
+      end: 1605220200
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "28"
+      route_type: 3
+      stop_id: "22575"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "32"
+      route_type: 3
+      stop_id: "22575"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "22575"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from Wed Nov 11 at 8:30 AM to Thu Nov 12 at 3:30 PM due to construction: 15th St & Platte St (#22575)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes: Board at next or previous stop\r\n28\r\n32\r\n44"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7581"
+  alert {
+    active_period {
+      start: 1605155041
+      end: 1605177665
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      stop_id: "34467"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      stop_id: "34468"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      stop_id: "34465"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      stop_id: "34466"
+    }
+    cause: MAINTENANCE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Board A Line on track 1 for South and North Bound trips at 38th/Blake and 40th/Colorado"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\n38th / Blake Station\r\n40th / Colorado Station"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "6556"
+  alert {
+    active_period {
+      start: 1597741200
+      end: 1620118740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "17409"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "19283"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops closed through Mon May 3, 2021 due to construction: 47th Ave & Josephine St (#19283) (westbound) and York St & 45th Ave (#17409) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n44"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "6471"
+  alert {
+    active_period {
+      start: 1597222800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101D"
+      route_type: 0
+      stop_id: "23041"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      stop_id: "23041"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      stop_id: "23061"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      stop_id: "23041"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101H"
+      route_type: 0
+      stop_id: "23061"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      stop_id: "26278"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101C"
+      route_type: 0
+      stop_id: "23041"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101C"
+      route_type: 0
+      stop_id: "23061"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      stop_id: "26280"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "26282"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "11"
+      route_type: 3
+      stop_id: "26286"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "14"
+      route_type: 3
+      stop_id: "26285"
+    }
+    cause: CONSTRUCTION
+    effect: UNKNOWN_EFFECT
+    header_text {
+      translation {
+        text: "Partial closure of I-25 / Broadway Park-n-Ride beginning Wed Aug 12 due to construction. There will be no impact to bus or light rail service."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "60 parking spaces north of the I-25 overpass are being permanently closed due to a City and County of Denver infrastructure project. Please follow signage and do not park in the area. Map available in additional information.\r\n\r\nAffected routes:\r\nC Line\r\nD Line\r\nE Line\r\nH Line\r\n0\r\n11\r\n14"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7490"
+  alert {
+    active_period {
+      start: 1605520800
+      end: 1606125540
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12895"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "12895"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 16 through Sun Nov 22 due to construction: Colfax Ave & Havana St (#12895) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15\r\n15L"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7489"
+  alert {
+    active_period {
+      start: 1606125600
+      end: 1606730340
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12894"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "12894"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 23 through Sun Nov 29 due to construction: Colfax Ave & Havana St (#12894) (eastbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15\r\n15L"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7211"
+  alert {
+    active_period {
+      start: 1602780514
+      end: 1609495140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12954"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "12954"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed through Dec 31 due to construction: Colfax Ave & Peoria St (#12954) (eastbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15\r\n15L\r\nBoard at temporary stop west of Peoria"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7546"
+  alert {
+    active_period {
+      start: 1605022200
+      end: 1605825000
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "20"
+      route_type: 3
+      stop_id: "17723"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "1"
+      route_type: 3
+      stop_id: "17723"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Tue Nov 10 at 8:30 AM to Thu Nov 19 at 3:30 PM due to construction: 18th St & Arapahoe St (#17723) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n1\r\n20"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7574"
+  alert {
+    active_period {
+      start: 1605109844
+      end: 1605177665
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "16714"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "16715"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "16716"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "44"
+      route_type: 3
+      stop_id: "16717"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 44 detoured due to construction."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\nTejon St & W 41st Ave (#16717) (eastbound)\r\nTejon St & W 38th Ave (#16715) (eastbound)\r\nTejon St & W 38th Ave (#16714) (westbound)\r\nTejon St & W 41st Ave (#16716) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "6678"
+  alert {
+    active_period {
+      start: 1598979900
+      end: 1610791140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      stop_id: "25989"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "101E"
+      route_type: 0
+      stop_id: "34007"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "107R"
+      route_type: 0
+      stop_id: "25989"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "107R"
+      route_type: 0
+      stop_id: "34007"
+    }
+    cause: MAINTENANCE
+    effect: UNKNOWN_EFFECT
+    header_text {
+      translation {
+        text: "The Park-n-Ride at Dry Creek Station will be closed for repairs beginning Monday, September 14. There will be no RTD parking available until work is completed in January 2021."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Please use Park-n-Rides located at Arapahoe at Village Center and County Line stations as alternates."
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7573"
+  alert {
+    active_period {
+      start: 1605520800
+      end: 1608631140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      stop_id: "14958"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 16 through Mon Dec 21 due to construction: Lawrence St & Downing St (#14958) (northbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n12"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7579"
+  alert {
+    active_period {
+      start: 1605157800
+      end: 1605175140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      stop_id: "34466"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "A"
+      route_type: 2
+      stop_id: "34468"
+    }
+    cause: UNKNOWN_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Board westbound bound A Line trains on track 1 at 38th & Blake and  40th & Colorado Stations beginning at 10:10 PM."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Westbound\r\n\nAffected stops:\r\n40th & Colorado Station Track 2 (#34468)\r\n38th & Blake Station Track 2 (#34466)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7428"
+  alert {
+    active_period {
+      start: 1604325600
+      end: 1605223800
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "0"
+      route_type: 3
+      stop_id: "12427"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83D"
+      route_type: 3
+      stop_id: "12427"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "83L"
+      route_type: 3
+      stop_id: "12427"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "CV"
+      route_type: 3
+      stop_id: "12427"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "EV"
+      route_type: 3
+      stop_id: "12427"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed until Thu Nov 12 at 4:30 PM due to construction: Broadway & W 13th Ave (#12427)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes: Board at temp stop south of construction zone\r\nCV\r\nEV\r\n0\r\n83D\r\n83L"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7292"
+  alert {
+    active_period {
+      start: 1603674000
+      end: 1606739400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "76"
+      route_type: 3
+      stop_id: "16943"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop will be closed nightly from 7:00 PM to 5:30 AM Sun Oct 25 to Mon Nov 30: Wadsworth Blvd & W 13th Ave (#16943) (southbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n76 Board at Colfax or at 10th Ave"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "861"
+  alert {
+    active_period {
+      start: 1576515626
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "121"
+      route_type: 3
+      stop_id: "15908"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "45"
+      route_type: 3
+      stop_id: "15908"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed due to construction: Peoria St & 45th Ave (#15908) (eastbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n45\r\n121"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "1301"
+  alert {
+    active_period {
+      start: 1578404750
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "10"
+      route_type: 3
+      stop_id: "24172"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed due to construction: 4200 Block 9th Ave (#24172) (westbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n10"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "5436"
+  alert {
+    active_period {
+      start: 1588955802
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+      stop_id: "21922"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed due to construction: Hwy 119 & Hurricane Hill Rd (#21922)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\nNB1"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7550"
+  alert {
+    active_period {
+      start: 1605022200
+      end: 1605825000
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "1"
+      route_type: 3
+      stop_id: "17723"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "20"
+      route_type: 3
+      stop_id: "17723"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stop is closed from Tue Nov 10 at 8:30 AM to Thu Nov 19 at 3:30 PM due to construction: 18th St & Arapahoe St (#17723)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n1\r\n20"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "5963"
+  alert {
+    active_period {
+      start: 1592384400
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "113B"
+      route_type: 2
+    }
+    cause: CONSTRUCTION
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Board B Line on Track 6 beginning Wed Jun 17 at Union Station until further notice due to work on Track 8."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: ""
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7247"
+  alert {
+    active_period {
+      start: 1603098000
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      stop_id: "13401"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "12"
+      route_type: 3
+      stop_id: "13409"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 12 detoured beginning Mon Oct 19 due to construction."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected direction: Northbound\r\n\nAffected stops:\r\nS Downing St & Iliff Ave (#13409)\r\nS Downing St & Evans Ave (#13401)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7577"
+  alert {
+    active_period {
+      start: 1606125600
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB1"
+      route_type: 3
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "NB2"
+      route_type: 3
+    }
+    cause: UNKNOWN_CAUSE
+    effect: UNKNOWN_EFFECT
+    header_text {
+      translation {
+        text: "Eldora will open for alpine skiing and riding on Monday, November 23, 2020, for the 2020/21 winter season. When planning your trip on RTD\'s NB Ski-n-Ride, please be aware of the following changes to prior year\'s service."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Due to health and safety guidelines, buses are strictly limited to 20 passengers per trip, and masks are required on all RTD services. In addition, we will be providing only the scheduled NB service, six trips eastbound and six trips westbound each day, which will fill up quickly. \r\n\nPlease be prepared for an afternoon rush on the 3:13 p.m., 4:13 p.m. and 5:13 p.m. eastbound trips leaving the resort - the last of the day. Arranging for a different way home, such as a rideshare or carpool, is recommended.\r\n"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7244"
+  alert {
+    active_period {
+      start: 1603026068
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "48"
+      route_type: 3
+      stop_id: "11271"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "48"
+      route_type: 3
+      stop_id: "11302"
+    }
+    cause: OTHER_CAUSE
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Route 48 detoured due to road closure.48th closed from Gaylord to Claude Please board on 47th or at Brighton Blvd"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected stops:\r\n48th Ave & Claude Ct (#11271) (eastbound)\r\n48th Ave & York St (#11302) (westbound)"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7117"
+  alert {
+    active_period {
+      start: 1602666000
+      end: 1614679140
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "52"
+      route_type: 3
+      stop_id: "11332"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "52"
+      route_type: 3
+      stop_id: "11334"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "52"
+      route_type: 3
+      stop_id: "11337"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Wed Oct 14 through Mon Mar 1 due to construction: 3 Bus stops."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n52\r\n\r\nAffected stops:\r\nW 50th Ave & Federal Blvd (#11332) (westbound) Board on Federal Blvd southbound at 50th Ave\r\nW 50th Ave & Irving St (#11334) (westbound) Board at stops west of Lowell or on Federal Blvd southbound at 50th Ave\r\nW 50th Ave & Knox Ct (#11337) (westbound) Board on 50th Ave at Lowell Blvd"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7213"
+  alert {
+    active_period {
+      start: 1604311200
+      end: 1605520740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12935"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "12935"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following closed from Mon Nov 2 through Sun Nov 15 due to construction: Colfax Ave & Monaco Pkwy (#12935) (eastbound)."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15\r\n15L\r\nBoard at temporary stop located west of Monaco Pkwy"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "7212"
+  alert {
+    active_period {
+      start: 1604311200
+      end: 1605520740
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15L"
+      route_type: 3
+      stop_id: "12963"
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_id: "15"
+      route_type: 3
+      stop_id: "12963"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "The following stops are closed Mon Nov 2 to Sun Nov 15 due to construction: Colfax Ave & Quebec St (#12963) eastbound"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Affected routes:\r\n15\r\n15L\r\nBoard at temporary stop located west of Quebec St"
+        language: "en"
+      }
+    }
+  }
+}
+entity {
+  id: "4169"
+  alert {
+    active_period {
+      start: 1593594000
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_type: 0
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_type: 2
+    }
+    informed_entity {
+      agency_id: "RTD"
+      route_type: 3
+    }
+    cause: UNKNOWN_CAUSE
+    effect: UNKNOWN_EFFECT
+    header_text {
+      translation {
+        text: "RTD public transit, as critical infrastructure, continues to operate at reduced COVID-19 service levels."
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "All passengers are required to wear face masks while on RTD services. Capacity is limited to approximately 15 passengers per bus, 20 on larger buses, and 30 riders per rail car. If you are unable to maintain social distancing, do not board. Instead, wait for the next vehicle. If necessary, buses will bypass stops so that social distancing can be maintained. Limit time spent in RTD stations to 10 minutes."
+        language: "en"
+      }
+    }
+  }
+}

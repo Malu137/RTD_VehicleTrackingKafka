@@ -9,6 +9,24 @@ public class BusPos {
 	private long timestamp;
 	private double longitude;
 	private double latitude;
+	private String tripId;
+	private String routeId;
+	private double distance;
+	
+	
+	public BusPos(String vehicleID, long timestamp, double longitude, double latitude, String tripId, String routeId,
+			double distance, double speed) {
+		super();
+		this.vehicleID = vehicleID;
+		this.timestamp = timestamp;
+		this.longitude = longitude;
+		this.latitude = latitude;
+		this.tripId = tripId;
+		this.routeId = routeId;
+		this.distance = distance;
+		this.speed = speed;
+	}
+
 	double speed;
 	
 	
@@ -27,6 +45,30 @@ public class BusPos {
 		this.speed = speed;
 	}
 	
+
+	public String getTripId() {
+		return tripId;
+	}
+
+	public void setTripId(String tripId) {
+		this.tripId = tripId;
+	}
+
+	public String getRouteId() {
+		return routeId;
+	}
+
+	public void setRouteId(String routeId) {
+		this.routeId = routeId;
+	}
+
+	public double getDistance() {
+		return distance;
+	}
+
+	public void setDistance(double distance) {
+		this.distance = distance;
+	}
 	public String getVehicleID() {
 		return vehicleID;
 	}
