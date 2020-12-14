@@ -22,7 +22,7 @@ import kong.unirest.Unirest;
 @Component
 public class HereTraffic {
 	
-	private String HereApiKey ="bogvj6AXFlJYSWRdG46wiJz5f4cklGpKsg5gRvyTZ1U";
+	private String HereApiKey ="<Here API KEY>";
 	private String HereFlowURL = "https://traffic.ls.hereapi.com/traffic/6.3/flow.json";
 	
 	
